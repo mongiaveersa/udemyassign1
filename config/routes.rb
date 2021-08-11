@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   get '/about', to: 'home#second'
   get '/settings', to: 'settings#pages'
 
-  
 end
+
