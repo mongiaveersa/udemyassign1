@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   root 'home#first'
   get '/about', to: 'home#second'
-  get '/settings', to: 'settings#page'
+  get '/settings', to: 'settings#pages'
 
   
 end
