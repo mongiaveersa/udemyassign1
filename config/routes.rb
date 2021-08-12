@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   root 'home#first'
   get '/about', to: 'home#second'
   get '/settings', to: 'settings#pages'
-  resources :articles, only: [:show]
+  resources :articles, only: [:show, :index]
 end
 
